@@ -1,11 +1,5 @@
-import React from 'react'
 import { CheckCircle, AlertCircle, Info } from 'lucide-react'
-
-interface AlertProps {
-  type: 'success' | 'error' | 'info';
-  title: string;
-  description: React.ReactNode;
-}
+import { AlertProps } from '../type'
 
 export function Alert({ type, title, description }: AlertProps) {
   const alertStyles = {
