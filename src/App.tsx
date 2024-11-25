@@ -3,13 +3,13 @@ import { Alert } from "./components/Alert"
 
 function App() {
 
-  const [streak, setStreak] = useState(0)
+  const [streak, setStreak] = useState<number>(0)
   const widthStreak = Math.min((streak / 10) * 100, 100);
   const [isSubmit, setIsSubmit] = useState(false)
 
   const handleSubmit = () => {
     setIsSubmit(true)
-    setStreak((prevData: number) => setStreak(prevData + 1))
+    setStreak((prevStreak) => prevStreak + 1);
   }
 
   return (
