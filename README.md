@@ -1,50 +1,44 @@
-# React + TypeScript + Vite
+# 🕵️‍♂️ **Past Negative Checker** 🕵️‍♀️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8d388e05-8e98-41c8-8c26-5357661f2b56" alt="Interfaz Principal" width="30%" />
+  <img src="https://github.com/user-attachments/assets/324de958-63e7-4114-b3d0-c38e9284248d" alt="Oracion Correcta" width="30%" />
+  <img src="https://github.com/user-attachments/assets/e0d2f63c-9c69-4a4e-ae29-555073ac981c" alt="Resultados Finales" width="30%" />
+</p>
 
-Currently, two official plugins are available:
+✨ **Una herramienta web diseñada para analizar y corregir oraciones negativas en inglés en tiempo pasado.** Ideal para estudiantes, profesores, y amantes del idioma que buscan mejorar sus habilidades gramaticales.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 **Características Principales**
 
-## Expanding the ESLint configuration
+✅ **Verificación precisa**: Detecta errores en estructuras negativas del pasado.  
+🎯 **Interfaz fácil de usar**: ¡No necesitas ser un experto para usarlo!  
+⚡ **Correcciones al instante**: Retroalimentación inmediata y clara.  
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🧑‍💻 **Cómo Usar**
+✍️ Escribe una oración en el campo de texto. <br/>
+🖱️ Haz clic en el botón "Verificar". <br/>
+📢 ¡Recibe sugerencias y correcciones al instante! <br/>
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🌟 Contribuciones
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+¡Tu ayuda hace crecer este proyecto! 🚀
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. Haz un **fork** del repositorio.  
+2. Crea una nueva rama:
+   ```bash
+   git checkout -b feature/nueva-funcionalidad
+   ```
+3. Realiza tus cambios y haz commit:
+   ```bash
+   git commit -m 'Agregar nueva funcionalidad'
+   ```
+4. Sube tus cambios:
+   ```bash
+   git push origin feature/nueva-funcionalidad
+   ```
+5. Abre un **Pull Request** para revisión. 👥
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+¡Gracias por contribuir! 💻
+
+
